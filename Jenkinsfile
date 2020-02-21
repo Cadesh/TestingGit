@@ -31,7 +31,7 @@ echo "Running the unit test..."
 stage('Integration test') {
 agent {
 docker {
-reuseNode true
+echo 'testing'
 image 'ubuntu'
 }
 }
