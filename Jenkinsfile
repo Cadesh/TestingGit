@@ -28,13 +28,6 @@ steps {
 echo "Running the unit test..."
 }
 }
-stage('Integration test') {
-agent {
-docker {
-echo 'testing'
-image 'ubuntu'
-}
-}
 steps {
 echo "Running the integration test..."
 }
