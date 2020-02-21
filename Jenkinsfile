@@ -3,7 +3,7 @@ agent any
 stages {
 stage('One') {
 steps {
-echo 'Hi, this is Zulaikha from Seneca'
+echo 'Hi, this is Zulaikha from edureka'
 }
 }
 stage('Two') {
@@ -36,8 +36,7 @@ image 'ubuntu'
 }
 }
 steps {
-echo "Running the integration
-test..."
+echo "Running the integration test..."
 }
 }
 }
